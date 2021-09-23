@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "poppins", sans-serif;
+}
+.banner{
+	width: 100%;
+	height: 20vh;
+	background-size: cover;
+	background-position: center;
+}
+.logo{
+	width: 100px;
+	cursor: pointer;
+}
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 10px;
+	position: relative;
+}
+
+.navbar{
+	width: 95%;
+	margin: auto;
+	padding: 15px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.92);
+	text-transform: uppercase;
+}
+.navbar ul li::after{
+	content: '';
+	height: 3px;
+	width: 0px;
+	background: #009688;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+}
+.navbar ul li:hover::after{
+	width: 100%;
+}
+
+/* Fin proprietes menu */
+body{
+background-color:rgb(235, 235, 235);
+margin-top: 10px;
+
+
+}
+.top{
+	
+	text-align:center;
+	
+	
+}
+p{
+	
+	text-align:center;
+	
+}
+
+#top-hotel{
+  border-collapse: collapse;
+ width: 90%;
+  margin-left:5%;
+  
+}
+#top-hotel td, #top-hotel{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#top-hotel tr:nth-child(even){background-color: #f2f2f2;}
+
+#top-hotel tr:hover {background-color: #ddd;}
+
+#top-hotel th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #9a4d0b;
+  /*opacity:70%;*/
+  color: white;
+}
+
+
+
+#top-plage{
+  border-collapse: collapse;
+ width: 90%;
+  margin-left:5%;
+  
+}
+#top-plage td, #top-plage{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#top-plage tr:nth-child(even){background-color: #f2f2f2;}
+
+#top-plage tr:hover {background-color: #ddd;}
+
+#top-plage th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: blue;
+  /*opacity:70%;*/
+  color: white;
+}
+header{
+    height: 150px;
+    background: rgba(128, 128, 128, 0.19);
+    width: 100%;
+    z-index: 20;
+    position: relative;
+    border-radius: 70px;
+}
+@media screen and (max-width:960px) {
+  .service-box{
+    max-width: 45%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .service-box{
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .service-box{
+    max-width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
